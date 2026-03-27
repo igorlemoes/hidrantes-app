@@ -57,6 +57,7 @@ Crie um arquivo `.env.local` na raiz do projeto:
 NEXT_PUBLIC_SUPABASE_URL=sua-url-do-supabase
 NEXT_PUBLIC_SUPABASE_ANON_KEY=sua-chave-pública
 NEXT_PUBLIC_ALLOWED_EMAIL_DOMAIN=seu-dominio.com
+ALLOWED_DEV_ORIGINS=localhost,seu-dominio.com
 ```
 
 #### Obtendo as credenciais do Supabase:
@@ -159,6 +160,7 @@ hidrantes-app/
 | `NEXT_PUBLIC_SUPABASE_URL` | URL do projeto Supabase | `https://xyz.supabase.co` |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Chave pública do Supabase | `eyJhbGciOiJIUzI1...` |
 | `NEXT_PUBLIC_ALLOWED_EMAIL_DOMAIN` | Domínio de email permitido para cadastro | `empresa.com` |
+| `ALLOWED_DEV_ORIGINS` | Origens permitidas em desenvolvimento (separadas por vírgula) | `localhost,seu-dominio.com` |
 
 ## Status dos Hidrantes
 
