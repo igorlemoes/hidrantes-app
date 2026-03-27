@@ -120,6 +120,8 @@ git commit -m "Initial commit"
    - `NEXT_PUBLIC_ALLOWED_EMAIL_DOMAIN`
 4. Deploy!
 
+> **Nota:** A variável `ALLOWED_DEV_ORIGINS` não é necessária na Vercel, pois é usada apenas para desenvolvimento local com proxy reverso.
+
 ### 3. Configurar domínios permitidos no Supabase
 
 No painel do Supabase, vá em **Authentication > URL Configuration** e adicione a URL de produção:
